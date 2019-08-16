@@ -1,3 +1,3 @@
-model_checkpoint_path: "C:\\Users\\kicjo\\Desktop\\my-anns\\sinus full\\sinus_tmp\\sinus_full_model.ckpt"
-all_model_checkpoint_paths: "C:\\Users\\kicjo\\Desktop\\my-anns\\sinus full\\model\\my_sinus_full_model"
-all_model_checkpoint_paths: "C:\\Users\\kicjo\\Desktop\\my-anns\\sinus full\\sinus_tmp\\sinus_full_model.ckpt"
+model_checkpoint_path: "C:\\Users\\kicjo\\Desktop\\my-anns\\sinus\\sinus_full\\sinus_tmp\\sinus_full_model.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\kicjo\\Desktop\\my-anns\\sinus\\sinus_full\\model\\my_sinus_full_model"
+all_model_checkpoint_paths: "C:\\Users\\kicjo\\Desktop\\my-anns\\sinus\\sinus_full\\sinus_tmp\\sinus_full_model.ckpt"
