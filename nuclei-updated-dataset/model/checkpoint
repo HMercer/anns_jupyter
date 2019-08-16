@@ -1,3 +1,0 @@
-model_checkpoint_path: "C:\\Users\\kicjo\\Desktop\\my-anns\\nuclei-updated-dataset\\model\\my_sinus_full_model"
-all_model_checkpoint_paths: "C:\\Users\\kicjo\\Desktop\\my-anns\\nuclei-updated-dataset\\sinus_tmp\\sinus_full_model.ckpt"
-all_model_checkpoint_paths: "C:\\Users\\kicjo\\Desktop\\my-anns\\nuclei-updated-dataset\\model\\my_sinus_full_model"
