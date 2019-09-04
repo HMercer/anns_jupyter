@@ -305,7 +305,7 @@ checkpoint = ModelCheckpoint("best_model.h5", monitor='val_categorical_accuracy'
 # In[32]:
 
 
-epochs = 2
+epochs = 40
 batch_size = 10
 history = model.fit_generator(datagen.flow(x_train, y_train, batch_size = batch_size), 
                              epochs = epochs,
