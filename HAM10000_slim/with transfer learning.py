@@ -14,7 +14,6 @@ import os
 import seaborn as sns
 import matplotlib.pyplot as plt
 from pathlib import Path
-get_ipython().run_line_magic('matplotlib', 'inline')
 from PIL import Image
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import label_binarize
