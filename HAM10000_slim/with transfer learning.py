@@ -3,7 +3,7 @@
 
 # with https://www.kaggle.com/sarques/aiwitbor  and https://www.tensorflow.org/beta/tutorials/images/transfer_learning
 
-# In[1]:
+# In[2]:
 
 
 from __future__ import absolute_import, division, print_function, unicode_literals
@@ -14,6 +14,7 @@ import os
 import seaborn as sns
 import matplotlib.pyplot as plt
 from pathlib import Path
+get_ipython().run_line_magic('matplotlib', 'inline')
 from PIL import Image
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import label_binarize
@@ -21,7 +22,7 @@ from sklearn.metrics import confusion_matrix
 import itertools
 
 
-# In[2]:
+# In[3]:
 
 
 import keras
@@ -305,7 +306,7 @@ checkpoint = ModelCheckpoint("best_model.h5", monitor='val_categorical_accuracy'
 # In[32]:
 
 
-epochs = 40
+epochs = 2
 batch_size = 10
 history = model.fit_generator(datagen.flow(x_train, y_train, batch_size = batch_size), 
                              epochs = epochs,
@@ -330,8 +331,16 @@ print(test_loss)
 print(val_acc)
 
 
+# In[6]:
+
+
+with open('results.txt', 'w') as f:
+    f.write('%f ' % test_loss)
+    f.write('%f' % val_acc)
+
+
 # In[ ]:
 
 
-#model.load_weights('best_model.h5')
+
 
